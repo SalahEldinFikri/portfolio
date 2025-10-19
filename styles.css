@@ -223,7 +223,7 @@ body {
 }
 
 .profile-card {
-    width: 120px;  /* smaller size */
+    width: 120px;  /* small image */
     height: 120px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -234,7 +234,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     position: relative;
-    right: -40px; /* moves it slightly to the right */
+    right: -100px; /* 👈 move more to the right */
 }
 
 .profile-image {
@@ -246,11 +246,10 @@ body {
     width: 85%;
     height: 85%;
     object-fit: cover;
-    border-radius: 50%; /* keep circular */
+    border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
-
 
 
 .scroll-indicator {
@@ -1040,6 +1039,7 @@ section {
         font-size: 3rem;
     }
 }
+
 
 
 
