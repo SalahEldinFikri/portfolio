@@ -222,10 +222,9 @@ body {
     position: relative;
 }
 
-/* Move card slightly to the left */
 .profile-card {
-    width: 220px; /* smaller than before */
-    height: 220px;
+    width: 150px;  /* smaller card */
+    height: 150px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     display: flex;
@@ -233,26 +232,25 @@ body {
     justify-content: center;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     position: relative;
-    left: -30px; /* shift card slightly to the left */
+    left: -40px; /* move a bit to the left */
 }
 
-/* optional: adjust spacing for icon-only fallback */
 .profile-image {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* Make the photo smaller and rounder */
 .profile-img {
     width: 90%;
     height: 90%;
     object-fit: cover;
     border-radius: 50%; /* circular look */
-    border: 3px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
+
 
 .scroll-indicator {
     position: absolute;
@@ -1041,4 +1039,5 @@ section {
         font-size: 3rem;
     }
 }
+
 
