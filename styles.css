@@ -223,19 +223,11 @@ body {
 }
 
 .profile-card {
-    width: 150px;  /* smaller card */
-    height: 150px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    position: relative;
-    left: -40px; /* move a bit to the left */
+    width: 120px;
+    height: 120px;
+    left: -30px;
 }
+
 
 .profile-image {
     font-size: 2.5rem;
@@ -1039,5 +1031,6 @@ section {
         font-size: 3rem;
     }
 }
+
 
 
