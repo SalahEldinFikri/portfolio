@@ -203,6 +203,18 @@ body {
     transform: translateY(-2px);
 }
 
+.btn-download {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+    border-color: #3b82f6;
+}
+
+.btn-download:hover {
+    background: #3b82f6;
+    color: white;
+    transform: translateY(-2px);
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
@@ -225,6 +237,13 @@ body {
 .profile-image {
     font-size: 4rem;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .scroll-indicator {
@@ -601,10 +620,18 @@ section {
     box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
 }
 
-.achievement-icon {
-    font-size: 3rem;
-    color: #3b82f6;
+.achievement-image {
+    width: 100%;
+    height: 150px;
     margin-bottom: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.achievement-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .achievement-card h3 {
@@ -624,6 +651,13 @@ section {
 .description {
     color: #94a3b8;
     font-size: 0.9rem;
+}
+
+.date {
+    color: #3b82f6;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
 }
 
 .team-info {
@@ -704,6 +738,155 @@ section {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     text-align: center;
+}
+
+/* Volunteering Section */
+.volunteering {
+    background: #0f172a;
+}
+
+.volunteering-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.activity-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.activity-item {
+    background: #1e293b;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+    padding-bottom: 1rem;
+}
+
+.activity-header h3 {
+    color: #10b981;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.activity-period {
+    color: #3b82f6;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.activity-description {
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+.activity-description p {
+    margin-bottom: 1rem;
+}
+
+.activity-description ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.activity-description li {
+    margin-bottom: 0.5rem;
+    color: #94a3b8;
+}
+
+/* Writeups Section */
+.writeups {
+    background: #1e293b;
+}
+
+.writeups-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.writeups-intro {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.writeups-intro p {
+    color: #94a3b8;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.writeups-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.writeup-card {
+    background: #0f172a;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.writeup-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+}
+
+.writeup-icon {
+    font-size: 3rem;
+    color: #3b82f6;
+    margin-bottom: 1rem;
+}
+
+.writeup-card h3 {
+    color: #e2e8f0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.writeup-card p {
+    color: #94a3b8;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.writeup-status {
+    margin-top: 1rem;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.status-badge.coming-soon {
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
 }
 
 /* Footer */
